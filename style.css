@@ -1,0 +1,16 @@
+.card p{
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+.row .card:hover{
+    box-shadow: 2px 2px 2px black;
+    transform: scale(1.02);
+}
+.whatsapp {
+    font-size: 100px;
+    text-align: right;
+    text-shadow: 3px 3px 1px #CCCCCC;
+}
+.help a {
+    color:white;
+}
