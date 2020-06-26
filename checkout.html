@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- External CSS -->
+        <link rel="stylesheet" type="text/css" href="checkout.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/0cd5b637ce.js" crossorigin="anonymous"></script>
+        <title>checkout</title>
+    </head>
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-75">
+            <div class="container">
+                <form>
+                <div class="row">
+                    <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="Dwi Muhamad Nofan">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="dm.nofan@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="Jl. Tegal Parang Utara 1 Mampang Prapatan">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Jakarta">
+                <div class="row">
+                    <div class="col-50">
+                            <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="Indonesia">
+                        </div>
+                    <div class="col-50">
+                            <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" placeholder="12790">
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-50">
+                        <h3>Payment</h3>
+                            <label for="fname">Transfer</label>
+                        <div class="icon-container">
+                            <form>
+                                <p><input type="radio" name="bni" value="BNI"><img src="img/iconfinder_BNI_2425812.png"></p>
+                                <p><input type="radio" name="bni" value="BRI"><img src="img/iconfinder_BRI_2425806.png"></p>
+                                <p><input type="radio" name="bni" value="BCA"><img src="img/iconfinder_BCA_2425807.png"></p>
+                                <p><input type="radio" name="bni" value="BTN"><img src="img/iconfinder_Bank_BTN_2425808.png"></p>
+                                <p><input type="radio" name="bni" value="Mandiri"><img src="img/iconfinder_Mandiri_2425804.png"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+                    <a href="order.html"><button type="button" class="btn btn-dark">Continue to checkout</button></a>
+                </form>
+            </div>
+            </div>
+        
+            <div class="col-25">
+                <div class="container">
+                    <h4>Cart<span class="price" style="color:black">
+                        <i class="fa fa-shopping-cart"></i>
+                        <b>6</b>
+                        </span>
+                    </h4>
+                    <p><a href="index.html#Product">Product 1</a> <span class="price">Rp 75.000,-</span></p>
+                    <p><a href="index.html#Product">Product 2</a> <span class="price">Rp 75.000,-</span></p>
+                    <p><a href="index.html#Product">Product 3</a> <span class="price">Rp 75.000,-</span></p>
+                    <p><a href="index.html#Product">Product 4</a> <span class="price">Rp 75.000,-</span></p>
+                    <p><a href="index.html#Product">Product 5</a> <span class="price">Rp 75.000,-</span></p>
+                    <p><a href="index.html#Product">Product 6</a> <span class="price">Rp 75.000,-</span></p>
+                    <hr>
+                    <p>Total <span class="price" style="color:black"><b>Rp 450.000,-</b></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="text-white p-5">
+            <div class="row">
+                <div class="col-md" id="Contact">
+                        <h5>Contact</h5>
+                        <hr color="white">
+                        <ul>
+                            <li>021345678</li>
+                            <li>cs.kopi@kopikita.com</li>
+                        </ul>
+                    </div>
+                <div class="col-md">
+                        <h5>Supported By</h5>
+                        <hr color="white">
+                            <ul>
+                                <li>JNE</li>
+                                <li>J&T</li>
+                                <li>Pos Indonesia</li>
+                            </ul>
+                    </div>
+                    <div class="follow col-md">
+                        <h5>Follow Us</h5>
+                        <hr color="white">
+                            <ul>
+                                <li><i class="fab fa-facebook mr-2"></i>Kopi Kita</li>
+                                <li><i class="fab fa-instagram mr-2"></i>Kopi_kita</li>
+                                <li><i class="fab fa-twitter mr-2"></i>Kopi_kita</li>
+                            </ul>
+                    </div>
+            </div>
+        </footer>
+            <div class="copyright text-center text-white font-weight-bold p-2">
+                <p>Development by Dwimnofan <i class="far fa-copyright"></i> 2020</p>
+            </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
